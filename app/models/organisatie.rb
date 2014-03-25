@@ -7,7 +7,7 @@ class Organisatie < ActiveRecord::Base
   def inline_forms_attribute_list
     @inline_forms_attribute_list ||= [
       [ :datum_aanmelding , "datum_aanmelding", :date_select ], 
-#     [ :lidorganisatie , "lidorganisatie", :unknown ], 
+      [ :lidorganisatie , "lidorganisatie", :check_box ], 
       [ :contact_persoon , "contact_persoon", :text_field ], 
       [ :functie_in_de_organisatie , "functie_in_de_organisatie", :text_field ], 
       [ :doelgroep , "doelgroep", :text_field ], 

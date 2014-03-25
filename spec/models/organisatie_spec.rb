@@ -28,7 +28,7 @@ describe Organisatie do
 				
 			
 		
-			# The type is checkbox
+			# The type is check_box
 			
 				
 				
