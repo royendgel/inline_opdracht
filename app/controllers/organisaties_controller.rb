@@ -1,0 +1,2 @@
+class OrganisatiesController < InlineFormsController
+end

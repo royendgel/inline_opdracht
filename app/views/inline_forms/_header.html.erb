@@ -1,0 +1,11 @@
+<div id='Header'>
+  <div id='title'>
+    volgsysteem v<%= inline_forms_version -%>
+  </div>
+  <% if current_user -%>
+  <div id='logout'>
+    <%= link_to "Afmelden: #{current_user.name}", destroy_user_session_path, :method => :delete %>
+  </div>
+  <% end -%>
+  <div style='clear: both;'></div>
+</div>

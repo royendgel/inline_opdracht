@@ -1,0 +1,20 @@
+rails g inline_forms Organisatie \
+	datum_aanmelding:date \
+	lidorganisatie:checkbox \
+	contact_persoon:string \
+	functie_in_de_organisatie:string \
+	doelgroep:string \
+	werkgebied:string \
+	advies:string \
+	bemiddeling:string \
+	financieel:string \
+	organisatorisch:string \
+	netwerk:string \
+	affiliate:string \
+	andere:string \
+	periode:string \
+	duur:string \
+	knelpunten:string \
+	oplossing:string \
+	toelichting:string \
+
