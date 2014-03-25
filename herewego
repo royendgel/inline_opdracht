@@ -1,6 +1,6 @@
 rails g inline_forms Organisatie \
 	datum_aanmelding:date \
-	lidorganisatie:checkbox \
+	lidorganisatie:checkb \
 	contact_persoon:string \
 	functie_in_de_organisatie:string \
 	doelgroep:string \
